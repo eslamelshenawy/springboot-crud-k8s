@@ -48,7 +48,7 @@ kubectl apply -f app-deployment.yaml
 kubectl get svc
 ```
 ```bash
-minikube ip 
+minikube ip # ip:32111  //like 8080:32111/TCP .... from kubectl get svc
 ```
 ```bash
 minikube dashboard 
